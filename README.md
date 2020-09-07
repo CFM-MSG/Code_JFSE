@@ -51,5 +51,3 @@ Run demo.py to train models and calculate mAP
 ```
 python demo.py
 ```
-
-```
