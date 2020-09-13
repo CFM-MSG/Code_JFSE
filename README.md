@@ -27,7 +27,7 @@ In this paper, we revisit the adversarial learning in existing cross-modal GAN m
 *Unlike most existing cross-modal GAN approaches that focus on the standard retrieval, the proposed JFSE approach can be simultaneously applied to standard retrieval, zero-shot retrieval and generalized zero-shot retrieval tasks.* 
 <br>
 
-   ![framework](./fig/flowchart.png)
+   ![framework](https://github.com/CFM-MSG/Code_JFSE/blob/master/fig/flowchart.png)
 
 <br>
 
@@ -62,14 +62,14 @@ These proposed schemes can align the distributions of both true and synthetic fe
 #### Results on Standard Retrieval
 <br>
 
- <img src="./fig/standard.png" width="95%" />
+ <img src="https://github.com/CFM-MSG/Code_JFSE/blob/master/fig/standard.png" width="95%" />
 
 #### Results on Zero-shot Retrieval
 <br>
 
- <img src="./fig/zsl.png" width="95%" />
+ <img src="https://github.com/CFM-MSG/Code_JFSE/blob/master/fig/zsl.png" width="95%" />
 
  #### Results on Generalized Zero-Shot Retrieval
 <br>
 
- <img src="./fig/gzsl.png" width="70%" />
+ <img src="https://github.com/CFM-MSG/Code_JFSE/blob/master/fig/gzsl.png" width="70%" />
