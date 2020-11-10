@@ -60,20 +60,31 @@ These proposed schemes can align the distributions of both true and synthetic fe
 ### The State-of-the-art Performance 
 
 #### Results on Standard Retrieval
+
+The overall comparison of our JFSE method and the compared methods on the four datasets.
+
 <br>
 
  <img src="https://github.com/CFM-MSG/Code_JFSE/blob/master/fig/standard.png" width="95%" />
 
 #### Results on Zero-shot Retrieval
+
+The overall comparison of our JFSE method and the compared methods for both seen class retrieval and unseen class retrieval on the four datasets.
+
 <br>
 
  <img src="https://github.com/CFM-MSG/Code_JFSE/blob/master/fig/zsl.png" width="95%" />
 
  #### Results on Generalized Zero-Shot Retrieval
+
+The overall comparison results of our JFSE method and the compared methods on Wikipedia and Pascal Sentences datasets.
+
 <br>
 
  <img src="https://github.com/CFM-MSG/Code_JFSE/blob/master/fig/gzsl.png" width="70%" />
 
 #### Results on Runtime Comparison
+
+The runtime comparison (in seconds) of typical GAN-based and discriminative approaches on Wikipedia and PKU-XMediaNet datasets.
 
  <img src="https://github.com/CFM-MSG/Code_JFSE/blob/master/fig/runtime.png" width="95%" />
