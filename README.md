@@ -42,7 +42,7 @@ JFSE proposes an advanced network architecture of coupled conditional WGANs (cWG
 
 ### Difference with the Other Cross-modal GAN approaches
 
-<img src="./fig/comparison_cmgan.png" width="95%" />
+<img src="https://github.com/CFM-MSG/Code_JFSE/blob/master/fig/comparison_cmgan.png" width="95%" />
 
 - The early work of ACMR [13] takes the feature projection as the “implicit" generator to generate the embedding features, which is not the true meaning of the GAN structure. Instead, it leverages a discriminator to distinguish the source of the projected features from images or text captions, which helps to learn a modality-invariant embedding space.
 - The later works of GXN [21], CM-GANS [15], R2GAN [5], DADN [28] and TANSS [22] all have two pairs of generator-discriminator for individual modalities, where a generator is commonly a vanilla GAN model for independent image-image and text-text generation on the feature level or pixel level. Note that these approaches also have a discriminator to discriminate against the modality of an embedding feature.
@@ -73,3 +73,7 @@ These proposed schemes can align the distributions of both true and synthetic fe
 <br>
 
  <img src="https://github.com/CFM-MSG/Code_JFSE/blob/master/fig/gzsl.png" width="70%" />
+
+#### Results on Runtime Comparison
+
+ <img src="https://github.com/CFM-MSG/Code_JFSE/blob/master/fig/runtime.png" width="95%" />
